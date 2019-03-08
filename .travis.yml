@@ -94,6 +94,14 @@ matrix:
       env: MAGENTO_VERSION="magento-mirror-1.9.3.10" DB=mysql INSTALL_SAMPLE_DATA=no
     - php: 7.1
       env: MAGENTO_VERSION="magento-mirror-1.9.3.10" DB=mysql INSTALL_SAMPLE_DATA=no
+    - php: 5.6
+      env: MAGENTO_VERSION="magento-mirror-1.9.4.0" DB=mysql INSTALL_SAMPLE_DATA=no
+    - php: 7.0
+      env: MAGENTO_VERSION="magento-mirror-1.9.4.0" DB=mysql INSTALL_SAMPLE_DATA=no
+    - php: 7.1
+      env: MAGENTO_VERSION="magento-mirror-1.9.4.0" DB=mysql INSTALL_SAMPLE_DATA=no
+    - php: 7.2
+      env: MAGENTO_VERSION="magento-mirror-1.9.4.0" DB=mysql INSTALL_SAMPLE_DATA=no
 
 before_install:
   - phpenv config-rm xdebug.ini
